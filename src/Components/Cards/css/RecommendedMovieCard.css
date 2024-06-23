@@ -1,0 +1,161 @@
+/* RecommendedMovieCard.css */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card-box {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .like {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .rating, .votes {
+    margin: 0;
+  }
+  
+  .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .card-content p.detail {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+
+/* Arrow Styles */
+.card-arrow-left, .card-arrow-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  
+  .card-arrow-left:hover, .card-arrow-right:hover {
+    background: rgb(27, 26, 26);
+  }
+  
+  .card-arrow-left {
+    left: 10px;
+  }
+  
+  .card-arrow-right {
+    right: 10px;
+  }
+  
+  .arrow--disabled {
+    visibility: hidden;
+  }
+  
+  .arrow--left, .arrow--right {
+    font-size: 24px;
+  }
+  
+  .recommended-movie {
+    position: relative;
+  }
+  
+  /* Other card styles */
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card-box {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .like {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+  .rating, .votes {
+    margin: 0;
+  }
+  
+  .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .card-content p.detail {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  

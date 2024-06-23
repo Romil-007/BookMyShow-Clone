@@ -1,0 +1,92 @@
+/* TopGameDetails.css */
+
+/* Container styling */
+.top-game-details {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 1px solid #ccc;
+    margin: 30px auto; /* Centering the container */
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Left section (image) */
+.top-game-details-left {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.top-game-details-left img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.top-game-details-left img:hover {
+    transform: scale(1.05);
+}
+
+/* Right section (details) */
+.top-game-details-right {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-game-details-right h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.top-game-details-right p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 8px 0;
+    color: #666;
+}
+
+/* Book tickets button */
+.book-tickets-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.book-tickets-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .top-game-details {
+        flex-direction: column;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .top-game-details-left img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .top-game-details-right {
+        padding: 20px;
+    }
+}

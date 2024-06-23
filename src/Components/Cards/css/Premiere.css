@@ -1,0 +1,121 @@
+.premiere{
+    position: relative;
+    padding: 0 0 16px;
+    background-color: #2b3147;
+    margin-bottom: 32px;
+}
+
+.premiere .poster {
+    padding: 16px 0px;
+}
+
+.premiere .poster img{
+    height: 103px;
+    width: 100%;
+}
+
+.premiere .heading{
+    margin: 12px 0 8px 0;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.premiere .banner-heading{
+    color: #fff;
+}
+
+.premiere .banner-para{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    word-break: break-word;
+}
+
+.premiere .card {
+    background: grey; 
+    color: #fff;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+}
+
+.premiere .card img{
+    border-radius: 10px;
+}
+
+.premiere .card .tag--disabled{
+    display: none;
+}
+
+.premiere .card-body {
+    background: #e84d61;
+    padding: 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 10px;
+}
+
+.premiere .card-body h1 {
+    font-size: 22px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+.card-body .like {
+    display: flex;
+}
+
+.card-body p {
+    font-size: 16px;
+}
+
+.card-body .like .icon {
+    padding-right: 10px;
+}
+
+.card-content {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.premiere .card-content h3{
+    word-break: break-word;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.premiere .card-content p{
+    margin: 0px;
+    word-break: break-word;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.premiere .card-arrow-left, .premiere .card-arrow-right {
+    top: 57%;
+  }

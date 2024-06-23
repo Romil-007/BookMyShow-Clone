@@ -1,0 +1,81 @@
+/* TopGames.css */
+
+.top-games {
+    padding: 20px;
+}
+
+.top-games .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-games .banner-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.top-games .see-all {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-games .card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.top-games .card-box {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.top-games .card {
+    position: relative;
+}
+
+.top-games .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.top-games .card-body {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+.top-games .rating {
+    margin: 0;
+}
+
+.top-games .card-content {
+    padding: 10px;
+}
+
+.top-games .card-content h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.top-games .card-content .detail {
+    color: #666;
+}
+
+.top-games .card-content p {
+    margin: 5px 0;
+}

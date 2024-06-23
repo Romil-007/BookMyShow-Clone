@@ -1,0 +1,23 @@
+.live-event{
+    position: relative;
+    padding: 0 0 64px;
+}
+
+.live-event .heading{
+    padding-top: 26px;
+}
+
+.live-event .card {
+    background: grey; 
+    color: #fff;
+    height: 222px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.live-event .card-arrow-left, .live-event .card-arrow-right {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}

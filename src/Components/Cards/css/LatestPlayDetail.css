@@ -1,0 +1,60 @@
+/* LatestPlayDetail.css */
+
+.latest-play-detail {
+    padding: 20px;
+}
+
+.card-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-detail img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.card-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.card-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card-info .date {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.card-info .language {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-info .description {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

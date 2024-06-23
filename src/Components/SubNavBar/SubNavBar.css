@@ -1,0 +1,32 @@
+.subnavbar {
+    background-color: #bf8df6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.subnav-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navitem-left a,
+.navitem-right a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+}
+
+.navitem-left,
+.navitem-right {
+    display: flex;
+    gap: 20px;
+}
+
+.navitem-left a {
+    font-size: 14px;
+}
+
+.navitem-right a {
+    font-size: 12px;
+}

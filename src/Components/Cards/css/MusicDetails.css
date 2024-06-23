@@ -1,0 +1,120 @@
+/* MusicDetails.css */
+
+/* Container styling */
+.music-details-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border: 1px solid #ccc;
+    margin: 30px auto; /* Centering the container */
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Left section (image) */
+.music-details-left {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.music-details-left img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.music-details-left img:hover {
+    transform: scale(1.05);
+}
+
+/* Right section (details) */
+.music-details-right {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.music-details-right h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.music-details-right p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 8px 0;
+    color: #666;
+}
+
+.music-details-right strong {
+    color: #f39c12;
+}
+
+/* Book tickets button */
+.book-tickets-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.book-tickets-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Music description section */
+.music-description {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.music-description h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+.music-description p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .music-details-container {
+        flex-direction: column;
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .music-details-left img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .music-details-right {
+        padding: 20px;
+    }
+
+    .music-description {
+        padding: 20px;
+    }
+}

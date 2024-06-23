@@ -1,0 +1,44 @@
+/* NearbyTheatres.css */
+
+.nearby-theatres {
+    padding: 20px;
+}
+
+.theatres-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Assuming the old theme uses this color */
+}
+
+.theatres-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.theatre {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theatre h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007bff; /* Assuming the old theme uses this color */
+}
+
+.showtimes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.showtime {
+    background-color: #ff9100; /* Assuming the old theme uses this color */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}

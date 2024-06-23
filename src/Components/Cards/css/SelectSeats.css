@@ -1,0 +1,67 @@
+.select-seats {
+    padding: 20px;
+}
+
+.select-seats-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.showtime-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.seat-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(
+        10,
+        1fr
+    ); /* Adjust columns based on your design */
+}
+
+.seat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.seat:hover {
+    background-color: #e0e0e0;
+}
+
+.selected {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.reserved {
+    background-color: #f44336;
+    cursor: not-allowed;
+    color: #fff;
+}
+
+.selection-summary {
+    margin-top: 20px;
+}
+
+.selected-seats-info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.confirm-button {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+    background-color: #0b7dda;
+}
